@@ -9,6 +9,7 @@ header{
 }
 .menubar {
     list-style: none;
+  background-color: white;
 }
 
 .menubar li  {
