@@ -23,6 +23,7 @@ header{
 }
 .menubar a.active {
   background-color: white;
+  padding: inherit;
 }
 input[type=text] {
   width: 20%;
