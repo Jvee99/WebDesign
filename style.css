@@ -1,30 +1,23 @@
 body{
   background-color: gray;
 }
-header{
-    display: flex;
-    justify-content: space-between;
-    align-items: center;
-    padding: 20px, 10%;
-}
+
 .menubar {
     list-style: none;
-  background-color: white;
+    background-color: white;
 }
-
 .menubar li  {
     display: inline-block;
     padding-top: 0px;
     padding-left: 20px;
     padding-right: 20px;
 }
-
 .menubar li a {
     transition: all 0.3s ease 0s;
 }
 .menubar a.active {
-  background-color: white;
-  padding: inherit;
+  background-color: yellow;
+  padding: 20px;
 }
 input[type=text] {
   width: 20%;
@@ -71,3 +64,9 @@ p {
   text-indent: 10px;
   text-transform: inherit;
   font-style: normal;
+}
+.sticky {
+  position: fixed;
+  top: 0;
+  width: 100%;
+}
