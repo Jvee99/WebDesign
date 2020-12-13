@@ -1,48 +1,53 @@
 <!DOCTYPE html>
 <html>
-<head>
-<title>Jvee's Photography</title>
-</head>
-<link rel="stylesheet" href="style.css">
-<body background="cambg1.jpg">
+   <head>
+      <title>Jvee's Photography</title>
 
-<center>
-  <div class="menubar">
+   <link rel="stylesheet" href="style.css">
 
-<header>
-<img src="NewLogo.png" width="300px" height="100px">
-    <ul class="menubar">
-    <li class="menubar"><a href="Home.html" class="active"><font face="arial" color="black" size="5">Home</font></a></li>
-    <li class="menubar"><a href="Sample Pictures.html"><font face="arial" color="black" size="5">Sample Pictures</font></a></li>
-    <li class="menubar"><a href="About Us.html"><font face="arial" color="black" size="5">About Us</font></a></li>
-    </ul>
+    </head>
+   <body background="cambg1.jpg">
 
-    </header>
-</div>
+    <center>
+              <div id="header">
+               <img src="NewLogo.png" width="400px" height="200px">
+               </div>
+         <div id="menubar">
+           <ul class="menubar">
+              <li><a href="Home.html" class="active"><font face="arial" color="black" size="5">Home</font></a></li>
+              <li><a href="Sample Pictures.html"><font face="arial" color="black" size="5">Sample Pictures</font></a></li>
+              <li><a href="About Us.html"><font face="arial" color="black" size="5">About Us</font></a></li>
+           </ul>
+         </div>
 
-</center>
-<br>
-<center>
-<h1>Full Name</h1><input type="text" Full Name="Full Name" Value="">
-<br>
-<h1>Address</h1><input type="text" Address="Address" Value="">
-<br>
-<h1>Mobile Number</h1><input type="text" Mobile Number="Mobile Number" Value="">
-<br>
-<h1>Date of Events</h1><input type="text" Date of Events="Date of Events" Value="">
-<br>
-<br>
-<input type="checkbox" Name="Events" Value="Wedding">Wedding
-<input type="checkbox" Name="Events" Value="Birthday">Birthday
-<input type="checkbox" Name="Events" Value="Baptismal">Baptismal
-<br><br>
-<br><br>
-<input type="submit" Value="Book Now!">
-</center>
-</body>
-<center>
-<div class="footer">
-  <h2>Also contact us in Gmail:aguinaldojvee@gmail.com and Faebook:jveeaguinaldo@yahoo.com</h2>
-</div>
-</center>
+      </center>
+      <br>
+      <center>
+
+    <form class="" action="result.php" method="post">
+
+         <h1>Full Name</h1>
+         <input type="text" name="name" Value="">
+         <br>
+         <h1>Address</h1>
+         <input type="text" name="Address" Value="">
+         <br>
+         <h1>Mobile Number</h1>
+         <input type="text" name="MobileNumber" Value="">
+         <br>
+         <h1>Events</h1>
+         <input type="text" name="Events" Value="Wedding, B-Day, Baptismal, etc.">
+         <br><br>
+         <br><br>
+         <input type="submit" Value="Book Now!">
+  </form>
+
+      </center>
+      <center>
+         <div class="footer">
+            <h2>Also contact us in Gmail:aguinaldojvee@gmail.com and Faebook:jveeaguinaldo@yahoo.com</h2>
+         </div>
+      </center>
+
+   </body>
 </html>
