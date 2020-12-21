@@ -1,7 +1,7 @@
 <?php
 
-include_once("Home.html");
-include_once("About Us.html");
-include_once("Sample Pictures.html");
+include_once("HOME.html");
+include_once("ABOUT US.html");
+include_once("SAMPLE PICTURES.html");
 
 ?>
